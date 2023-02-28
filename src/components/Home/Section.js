@@ -41,9 +41,13 @@ const Wrap = styled.div`
 const ItemText = styled.div`
     padding-top: 15vh;
     text-align: center;
+    color : white;
 `
 
 const Buttons = styled.div`
+  display :flex;
+  flex-direction :column;
+  justify-content : center;
 
 `
 
