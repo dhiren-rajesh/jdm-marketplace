@@ -11,9 +11,11 @@ function Header() {
         <a href="#">NSX</a>
         <a href="#">Supra</a>
         <a href="#">Skyline</a>
+        <a href="#">RX-7</a>
         <a href="#">RC213V</a>
         <a href="#">YZR-M1</a>
         <a href="#">H2R</a>
+        <a href="#">GSXR</a>
       </Menu>
       <RightMenu>
         <a href="#">Shop</a>

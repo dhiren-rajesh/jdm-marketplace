@@ -27,6 +27,13 @@ function Home() {
           rightBtnText="Existing Inventory"
         />
         <Section
+          title="Mazda RX-7"
+          description="The Monalisa"
+          backgroundImg="RX-7.jpg"
+          leftBtnText="Custom Order"
+          rightBtnText="Existing Inventory"
+        />
+        <Section
           title="Honda RC213V"
           description="Marc Speed"
           backgroundImg="RC213V.jpg"
@@ -44,6 +51,13 @@ function Home() {
           title="Kawasaki Ninja H2R"
           description="Built Beyond Belief"
           backgroundImg="H2R.jpg"
+          leftBtnText="Order Now"
+          rightBtnText="Learn More"
+        />
+        <Section
+          title="Suzuki GSXR"
+          description="Own the Racetrack"
+          backgroundImg="GSXR.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />
