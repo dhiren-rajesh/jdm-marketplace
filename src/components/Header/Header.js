@@ -33,12 +33,10 @@ function Header() {
         </CloseWrapper>
         <li><a href="#">Honda NSX</a></li>
         <li><a href="#">Toyota Supra MK4</a></li>
-        <li><a href="#">Nissan Skyline GTR</a></li>
+        <li><a href="#">Nissan Skyline GTR R34</a></li>
         <li><a href="#">Mazda RX-7</a></li>
-        <li><a href="#">Honda RC213V</a></li>
+        <li><a href="#">Mitsubushi Lancer Evolution IX</a></li>
         <li><a href="#">Yamaha YZR-M1</a></li>
-        <li><a href="#">Kawasaki Ninja H2R</a></li>
-        <li><a href="#">Suzuki GSXR</a></li>
         <li><a href="#">Existing Inventory</a></li>
         <li><a href="#">Test Drive</a></li>
       </BurgerNav>
@@ -61,6 +59,10 @@ const Container = styled.div`
   z-index: 1;
   a{
     color: #BDCDD6;
+    h1{
+      font-family: Mightsilly;
+      font-size: 45px;
+    }
   }
 `
 
@@ -105,7 +107,7 @@ const BurgerNav = styled.div`
   bottom: 0;
   right: 0;
   background-color: white;
-  width: 300px;
+  width: 315px;
   z-index: 15;
   list-style: none;
   padding: 20px;

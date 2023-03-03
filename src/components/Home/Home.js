@@ -20,7 +20,7 @@ function Home() {
           rightBtnText="Existing Inventory"
         />
         <Section
-          title="Nissan Skyline GTR"
+          title="Nissan Skyline GTR R34"
           description="Brian's Favorite"
           backgroundImg="Skyline.jpg"
           leftBtnText="Custom Order"
@@ -34,30 +34,16 @@ function Home() {
           rightBtnText="Existing Inventory"
         />
         <Section
-          title="Honda RC213V"
-          description="Marc Speed"
-          backgroundImg="RC213V.jpg"
-          leftBtnText="Order Now"
-          rightBtnText="Learn More"
+          title="Mitsubushi Lancer Evolution IX"
+          description="Own the Road"
+          backgroundImg="EvoIX.jpg"
+          leftBtnText="Custom Order"
+          rightBtnText="Existing Inventory"
         />
         <Section
           title="Yamaha YZR-M1"
-          description="Rosy like Rossi"
+          description="Revs Your Hearts"
           backgroundImg="YZR-M1.jpg"
-          leftBtnText="Order Now"
-          rightBtnText="Learn More"
-        />
-        <Section
-          title="Kawasaki Ninja H2R"
-          description="Built Beyond Belief"
-          backgroundImg="H2R.jpg"
-          leftBtnText="Order Now"
-          rightBtnText="Learn More"
-        />
-        <Section
-          title="Suzuki GSXR"
-          description="Own the Racetrack"
-          backgroundImg="GSXR.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />
