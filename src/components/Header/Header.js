@@ -13,30 +13,29 @@ function Header() {
         <h1>JDM</h1>
       </a>
       <Menu>
-        <a href="#">NSX</a>
-        <a href="#">Supra</a>
-        <a href="#">Skyline</a>
-        <a href="#">RX-7</a>
-        <a href="#">EvoIX</a>
-        <a href="#">YZR-M1</a>
+        <a href="/NSX">NSX</a>
+        <a href="/Supra">Supra</a>
+        <a href="/Skyline">Skyline</a>
+        <a href="/RX7">RX-7</a>
+        <a href="/EvoIX">Evo-IX</a>
+        <a href="/YZRM1">YZR-M1</a>
       </Menu>
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">JDM Account</a>
+        <a href="/#">JDM Account</a>
         <CustomMenu onClick={() => setBurgerStatus(true)}/>
       </RightMenu>
       <BurgerNav show={burgerStatus}>
         <CloseWrapper>
           <CustomClose onClick={() => setBurgerStatus(false)}/>
         </CloseWrapper>
-        <li><a href="#">Honda NSX</a></li>
-        <li><a href="#">Toyota Supra MK4</a></li>
-        <li><a href="#">Nissan Skyline GTR R34</a></li>
-        <li><a href="#">Mazda RX-7</a></li>
-        <li><a href="#">Mitsubushi Lancer Evolution IX</a></li>
-        <li><a href="#">Yamaha YZR-M1</a></li>
-        <li><a href="#">Existing Inventory</a></li>
-        <li><a href="#">Test Drive</a></li>
+        <li><a href="/NSX">Honda NSX</a></li>
+        <li><a href="/Supra">Toyota Supra MK4</a></li>
+        <li><a href="/Skyline">Nissan Skyline GTR R34</a></li>
+        <li><a href="/RX7">Mazda RX-7</a></li>
+        <li><a href="/EvoIX">Mitsubushi Lancer Evolution IX</a></li>
+        <li><a href="/YZRM1">Yamaha YZR-M1</a></li>
+        <li><a href="/#">Existing Inventory</a></li>
+        <li><a href="/#">Test Drive</a></li>
       </BurgerNav>
     </Container>
   )
@@ -57,9 +56,10 @@ const Container = styled.div`
   z-index: 1;
   a{
     color: #BDCDD6;
+    font-size: 20px;
     h1{
       font-family: Mightsilly Regular;
-      font-size: 45px;
+      font-size: 50px;
     }
   }
 `
@@ -88,7 +88,7 @@ const RightMenu = styled.div`
   a{
     font-weight: 600;
     text-transform: uppercase;
-    margin-right: 10px;
+    margin-right: 20px;
     flex-wrap: nowrap;
     color: #BDCDD6;
   }
@@ -132,6 +132,4 @@ const CloseWrapper = styled.div`
 
 const CustomClose = styled(ClearIcon)`
   cursor: pointer;
-`
-
-
+` 

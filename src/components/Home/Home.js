@@ -29,7 +29,7 @@ function Home() {
         <Section
           title="Mazda RX-7"
           description="The Monalisa"
-          backgroundImg="RX-7.jpg"
+          backgroundImg="RX7.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
         />
@@ -43,7 +43,7 @@ function Home() {
         <Section
           title="Yamaha YZR-M1"
           description="Revs Your Hearts"
-          backgroundImg="YZR-M1.jpg"
+          backgroundImg="YZRM1.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />
