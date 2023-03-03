@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Fade } from 'react-reveal'
 
-function Section({title, description, backgroundImg, leftBtnText, rightBtnText}) {
+function Section({title, description, backgroundImg, leftBtnText, rightBtnText, flag}) {
   return (
     <Wrap bgImg={backgroundImg}>
       <Fade bottom>
@@ -26,7 +26,7 @@ function Section({title, description, backgroundImg, leftBtnText, rightBtnText})
               }
           </ButtonGroup>
         </Fade>
-        <DownArrow src="/images/down-arrow.svg"/>
+        {flag && <DownArrow src="/images/down-arrow.svg"/>}
       </Buttons>
     </Wrap>
   )

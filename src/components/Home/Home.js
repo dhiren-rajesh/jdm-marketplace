@@ -11,6 +11,7 @@ function Home() {
           backgroundImg="NSX.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
+          flag="exists"
         />
         <Section
           title="Toyota Supra MK4"
@@ -18,6 +19,7 @@ function Home() {
           backgroundImg="Supra.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
+          flag="exists"
         />
         <Section
           title="Nissan Skyline GTR R34"
@@ -25,6 +27,7 @@ function Home() {
           backgroundImg="Skyline.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
+          flag="exists"
         />
         <Section
           title="Mazda RX-7"
@@ -32,6 +35,7 @@ function Home() {
           backgroundImg="RX7.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
+          flag="exists"
         />
         <Section
           title="Mitsubushi Lancer Evolution IX"
@@ -39,6 +43,7 @@ function Home() {
           backgroundImg="EvoIX.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
+          flag="exists"
         />
         <Section
           title="Yamaha YZR-M1"
