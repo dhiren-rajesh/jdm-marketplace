@@ -14,12 +14,16 @@ function Section({title, description, backgroundImg, leftBtnText, rightBtnText})
       <Buttons>
         <Fade bottom>
           <ButtonGroup>
-              <LeftButton>
-                  {leftBtnText}
-              </LeftButton>
-              <RightButton>
-                  {rightBtnText}
-              </RightButton>
+              {leftBtnText &&
+                <LeftButton>
+                    {leftBtnText}
+                </LeftButton>
+              }
+              {rightBtnText &&
+                <RightButton>
+                    {rightBtnText}
+                </RightButton>
+              }
           </ButtonGroup>
         </Fade>
         <DownArrow src="/images/down-arrow.svg"/>
