@@ -3,27 +3,27 @@ import styled from 'styled-components'
 import Section from '../Home/Section'
 import Dashboard from './Dashboard'
 
-function RX7() {
+function RC213VS() {
   return (
     <div>
       <Container>
         <Section
-          title="Mazda RX-7 FD"
-          description="The Monalisa"
-          backgroundImg="RX7.jpg"
+          title="RC213V-S"
+          description="Shining Future"
+          backgroundImg="RC213VS.jpg"
           flag="exists"
         />
         <Wrap>
           <Description>
-            <h2>Mazda RX-7 FD</h2>
+            <h2>Honda RC213V-S</h2>
             <p>Description</p>
           </Description>
           <Dashboard
-            engine="1308 cc 13B-REW twin-turbo twin-rotor"
-            topSpeed="120 mph"
-            torque="6500 rpm"
-            power="252 bhp"
-            transmissions="5-speed manual 4-speed automatic"
+            engine="Honda 1,000 cc Liquid-cooled, 90° V4, DOHC, 16-valves"
+            topSpeed="188 mph"
+            torque="11000 rpm"
+            power="157 bhp"
+            transmissions="6-Speed, constant mesh"
           />
         </Wrap>
       </Container>
@@ -31,7 +31,7 @@ function RX7() {
   )
 }
 
-export default RX7
+export default RC213VS
 
 const Container = styled.div`
 `
@@ -39,7 +39,7 @@ const Container = styled.div`
 const Wrap = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 30px; 
+    margin: 30px;
 `
 
 const Description = styled.div`

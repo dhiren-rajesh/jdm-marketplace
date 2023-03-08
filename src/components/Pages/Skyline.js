@@ -9,7 +9,7 @@ function Skyline() {
       <Container>
         <Section
           title="Nissan Skyline GTR R34"
-          description="Brian's Favorite"
+          description="Drive like Brian"
           backgroundImg="Skyline.jpg"
           flag="exists"
         />

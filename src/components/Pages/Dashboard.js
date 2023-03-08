@@ -45,6 +45,10 @@ const Wrap = styled.div`
     td{
         padding: 10px;
     }
+    border-left: 1px solid grey;
+    table{
+        padding-left: 50px;
+    }
 `
 
 const ImgIcon = styled.img`

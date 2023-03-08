@@ -19,6 +19,7 @@ function Header() {
         <a href="/RX7">RX-7</a>
         <a href="/EvoIX">Evo-IX</a>
         <a href="/YZRM1">YZR-M1</a>
+        <a href="/RC213VS">RC213V-S</a>
       </Menu>
       <RightMenu>
         <a href="/#">JDM Account</a>
@@ -31,9 +32,10 @@ function Header() {
         <li><a href="/NSX">Honda NSX</a></li>
         <li><a href="/Supra">Toyota Supra MK4</a></li>
         <li><a href="/Skyline">Nissan Skyline GTR R34</a></li>
-        <li><a href="/RX7">Mazda RX-7</a></li>
+        <li><a href="/RX7">Mazda RX-7 FD</a></li>
         <li><a href="/EvoIX">Mitsubushi Lancer Evolution IX</a></li>
         <li><a href="/YZRM1">Yamaha YZR-M1</a></li>
+        <li><a href="/RC213VS">Honda RC213V-S</a></li>
         <li><a href="/#">Existing Inventory</a></li>
         <li><a href="/#">Test Drive</a></li>
       </BurgerNav>

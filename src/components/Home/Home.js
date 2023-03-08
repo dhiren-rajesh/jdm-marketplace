@@ -23,14 +23,14 @@ function Home() {
         />
         <Section
           title="Nissan Skyline GTR R34"
-          description="Brian's Favorite"
+          description="Drive like Brian"
           backgroundImg="Skyline.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
         />
         <Section
-          title="Mazda RX-7"
+          title="Mazda RX-7 FD"
           description="The Monalisa"
           backgroundImg="RX7.jpg"
           leftBtnText="Custom Order"
@@ -49,6 +49,13 @@ function Home() {
           title="Yamaha YZR-M1"
           description="Revs Your Hearts"
           backgroundImg="YZRM1.jpg"
+          leftBtnText="Order Now"
+          rightBtnText="Learn More"
+        />
+        <Section
+          title="Honda RC213V-S"
+          description="Shining Future"
+          backgroundImg="RC213VS.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />

@@ -8,6 +8,7 @@ import Skyline from './components/Pages/Skyline';
 import RX7 from './components/Pages/RX7';
 import EvoIX from './components/Pages/EvoIX';
 import YZRM1 from './components/Pages/YZRM1';
+import RC213VS from './components/Pages/RC213VS';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/RX7" element={<RX7/>}/>
           <Route path="/EvoIX" element={<EvoIX/>}/>
           <Route path="/YZRM1" element={<YZRM1/>}/>
+          <Route path="/RC213VS" element={<RC213VS/>}/>
         </Routes>
       </div>
     </Router>
