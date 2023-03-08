@@ -16,7 +16,12 @@ function NSX() {
         <Wrap>
           <Description>
             <h2>Honda NSX</h2>
-            <p>Description</p>
+            <p>
+              Started in 1984, based from the HP-X concept.
+              Designed by Masahito Nakano with aerodynamics inspired by an F-16 fighter jet.
+              Inputs were also given by the late F1 legend Ayrton Senna for the design of the car.
+              A two-seater sports car with pop-up headlights and manual or automatic transmissions based on the user's choice.
+            </p>
           </Description>
           <Dashboard
             engine="3 Litre C30A V6"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  }
 `

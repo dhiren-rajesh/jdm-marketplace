@@ -16,7 +16,12 @@ function EvoIX() {
         <Wrap>
           <Description>
             <h2>Mitsubushi Lancer Evolution IX</h2>
-            <p>Description</p>
+            <p>
+              Designed by Omer Halilhodzic, this machine runs on a Inline-4 engine.
+              Unlike the previous generations very subtle changes have been made to the car
+              which help to increase the pace and handling of it,
+              making it comparitively suitable for new gen JDM users.
+            </p>
           </Description>
           <Dashboard
             engine="2.0 L 4G63 Inline 4 Turbocharged"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  } 
 `

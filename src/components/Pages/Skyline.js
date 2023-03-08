@@ -16,7 +16,12 @@ function Skyline() {
         <Wrap>
           <Description>
             <h2>Nissan Skyline GTR R34</h2>
-            <p>Description</p>
+            <p>
+              Designed by Kozo Watanabe, this turbo charged classic 
+              just provides a different feel for drivers. 
+              A two seater dream car for many, providing only manual transmissions
+              the car is able to hit upto 165 mph. 
+            </p>
           </Description>
           <Dashboard
             engine="2.6 L twin-turbocharged RB26DETT I6"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  } 
 `

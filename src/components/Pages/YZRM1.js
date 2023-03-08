@@ -16,10 +16,15 @@ function YZRM1() {
         <Wrap>
           <Description>
             <h2>Yamaha YZR-M1</h2>
-            <p>Description</p>
+            <p>
+              An Inline-4 motorcycle designed by Yamaha Motor Company.
+              Used by Valetino Rossi and Jorge Lorenzo. 
+              Made mainly for racing in the MotoGP series. 
+              An on-road version of the same for sale, to be used by casual drivers.
+            </p>
           </Description>
           <Dashboard
-            engine="Inline-Four"
+            engine="1000cc Inline 4-cylinder with cross-plane crankshaft"
             topSpeed="211 mph"
             torque="5000 rpm"
             power="240 bhp"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  } 
 `

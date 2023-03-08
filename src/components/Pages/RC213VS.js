@@ -16,7 +16,12 @@ function RC213VS() {
         <Wrap>
           <Description>
             <h2>Honda RC213V-S</h2>
-            <p>Description</p>
+            <p>
+              A 1,000cc motorcycle designed by Honda Motor Corporation.
+              Used by Marc Marquez and Dani Pedrosa. 
+              Made mainly for racing in the MotoGP series. 
+              An on-road version of the same for sale, to be used by casual drivers.
+            </p>
           </Description>
           <Dashboard
             engine="Honda 1,000 cc Liquid-cooled, 90° V4, DOHC, 16-valves"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  } 
 `

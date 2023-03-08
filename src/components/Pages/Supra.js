@@ -16,7 +16,12 @@ function Supra() {
         <Wrap>
           <Description>
             <h2>Toyota Supra MK4</h2>
-            <p>Description</p>
+            <p>
+              The 4th generation legend made by Toyota.
+              Designed by Isao Tsuzuki and produced between '93-'02.
+              Works on both automatic and manual transmissions 
+              to provide the necessary comfort and speed to the driver.
+            </p>
           </Description>
           <Dashboard
             engine="5 Litre Twin-Turbo V12"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  }
 `

@@ -16,7 +16,12 @@ function RX7() {
         <Wrap>
           <Description>
             <h2>Mazda RX-7 FD</h2>
-            <p>Description</p>
+            <p>
+              A 2-door coupe with a rotary engine designed by Yoichi Sato.
+              Called 'The Monalisa' of the JDM world. A Car many JDM fans crave for.
+              Providing both automatic and manual transmissions, 
+              running on twin-turbochargers this is a car like none other.
+            </p>
           </Description>
           <Dashboard
             engine="1308 cc 13B-REW twin-turbo twin-rotor"
@@ -43,4 +48,10 @@ const Wrap = styled.div`
 `
 
 const Description = styled.div`
+  flex: 0.8;
+  text-align: justify;
+  padding: 10px;
+  p{
+    margin-top: 15px;
+  } 
 `
