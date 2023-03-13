@@ -8,7 +8,7 @@ function Home() {
         <Section
           title="Honda NSX"
           description="One of a Kind"
-          backgroundImg="NSX.jpg"
+          backgroundImg="NSX/NSX.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
@@ -16,7 +16,7 @@ function Home() {
         <Section
           title="Toyota Supra MK4"
           description="Top Secret"
-          backgroundImg="Supra.jpg"
+          backgroundImg="Supra/Supra.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
@@ -24,7 +24,7 @@ function Home() {
         <Section
           title="Nissan Skyline GTR R34"
           description="Drive like Brian"
-          backgroundImg="Skyline.jpg"
+          backgroundImg="Skyline/Skyline.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
@@ -32,7 +32,7 @@ function Home() {
         <Section
           title="Mazda RX-7 FD"
           description="The Monalisa"
-          backgroundImg="RX7.jpg"
+          backgroundImg="RX7/RX7.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
@@ -40,7 +40,7 @@ function Home() {
         <Section
           title="Mitsubushi Lancer Evolution IX"
           description="Own the Road"
-          backgroundImg="EvoIX.jpg"
+          backgroundImg="EvoIX/EvoIX.jpg"
           leftBtnText="Custom Order"
           rightBtnText="Existing Inventory"
           flag="exists"
@@ -48,14 +48,14 @@ function Home() {
         <Section
           title="Yamaha YZR-M1"
           description="Revs Your Hearts"
-          backgroundImg="YZRM1.jpg"
+          backgroundImg="YZRM1/YZRM1.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />
         <Section
           title="Honda RC213V-S"
           description="Shining Future"
-          backgroundImg="RC213VS.jpg"
+          backgroundImg="RC213VS/RC213VS.jpg"
           leftBtnText="Order Now"
           rightBtnText="Learn More"
         />

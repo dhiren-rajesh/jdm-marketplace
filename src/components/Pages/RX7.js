@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Dashboard from './Dashboard'
-
+import Carousel from '../Sub-Components/Carousel'
+import Dashboard from '../Sub-Components/Dashboard'
 function RX7() {
   return (
     <div>
@@ -10,7 +10,7 @@ function RX7() {
         <Section
           title="Mazda RX-7 FD"
           description="The Monalisa"
-          backgroundImg="RX7.jpg"
+          backgroundImg="RX7/RX7.jpg"
           flag="exists"
         />
         <Wrap>
@@ -31,6 +31,12 @@ function RX7() {
             transmissions="5-speed manual 4-speed automatic"
           />
         </Wrap>
+        <Carousel
+          image1="/images/RX7/RX7-Back.jpg"
+          image2="/images/RX7/RX7-Side.jpg"
+          image3="/images/RX7/RX7-Interior.jpg"
+          image4="/images/RX7/RX7-Engine.jpg"
+        />
       </Container>
     </div>
   )

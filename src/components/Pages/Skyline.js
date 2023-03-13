@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Dashboard from './Dashboard'
+import Carousel from '../Sub-Components/Carousel'
+import Dashboard from '../Sub-Components/Dashboard'
 
 function Skyline() {
   return (
@@ -10,7 +11,7 @@ function Skyline() {
         <Section
           title="Nissan Skyline GTR R34"
           description="Drive like Brian"
-          backgroundImg="Skyline.jpg"
+          backgroundImg="Skyline/Skyline.jpg"
           flag="exists"
         />
         <Wrap>
@@ -31,6 +32,12 @@ function Skyline() {
             transmissions="6-speed Getrag 233 manual"
           />
         </Wrap>
+        <Carousel
+          image1="/images/Skyline/Skyline-Back.jpg"
+          image2="/images/Skyline/Skyline-Side.jpg"
+          image3="/images/Skyline/Skyline-Interior.jpg"
+          image4="/images/Skyline/Skyline-Engine.jpg"
+        />
       </Container>
     </div>
   )

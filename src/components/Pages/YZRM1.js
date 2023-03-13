@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Dashboard from './Dashboard'
+import Dashboard from '../Sub-Components/Dashboard'
 
 function YZRM1() {
   return (
@@ -10,7 +10,7 @@ function YZRM1() {
         <Section
           title="Yamaha YZR-M1"
           description="Revs Your Hearts"
-          backgroundImg="YZRM1.jpg"
+          backgroundImg="YZRM1/YZRM1.jpg"
           flag="exists"
         />
         <Wrap>

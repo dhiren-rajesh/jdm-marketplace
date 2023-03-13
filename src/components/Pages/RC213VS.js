@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Dashboard from './Dashboard'
+import Dashboard from '../Sub-Components/Dashboard'
 
 function RC213VS() {
   return (
@@ -10,7 +10,7 @@ function RC213VS() {
         <Section
           title="RC213V-S"
           description="Shining Future"
-          backgroundImg="RC213VS.jpg"
+          backgroundImg="RC213VS/RC213VS.jpg"
           flag="exists"
         />
         <Wrap>

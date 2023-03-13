@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Dashboard from './Dashboard'
+import Carousel from '../Sub-Components/Carousel'
+import Dashboard from '../Sub-Components/Dashboard'
 
 function Supra() {
   return (
@@ -10,7 +11,7 @@ function Supra() {
         <Section
           title="Toyota Supra MK4"
           description="Top Secret"
-          backgroundImg="Supra.jpg"
+          backgroundImg="Supra/Supra.jpg"
           flag="exists"
         />
         <Wrap>
@@ -31,6 +32,12 @@ function Supra() {
             transmissions="4-speed automatic 5-speed manual 6-speed manual"
           />
         </Wrap>
+        <Carousel
+          image1="/images/Supra/Supra-Back.jpg"
+          image2="/images/Supra/Supra-Side.jpg"
+          image3="/images/Supra/Supra-Interior.jpg"
+          image4="/images/Supra/Supra-Engine.jpg"
+        />
       </Container>
     </div>
   )
