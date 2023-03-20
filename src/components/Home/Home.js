@@ -45,20 +45,6 @@ function Home() {
           rightBtnText="Existing Inventory"
           flag="exists"
         />
-        <Section
-          title="Yamaha YZR-M1"
-          description="Revs Your Hearts"
-          backgroundImg="YZRM1/YZRM1.jpg"
-          leftBtnText="Order Now"
-          rightBtnText="Learn More"
-        />
-        <Section
-          title="Honda RC213V-S"
-          description="Shining Future"
-          backgroundImg="RC213VS/RC213VS.jpg"
-          leftBtnText="Order Now"
-          rightBtnText="Learn More"
-        />
     </Container>
   )
 }

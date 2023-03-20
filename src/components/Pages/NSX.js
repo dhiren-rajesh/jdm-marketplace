@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Carousel from '../Sub-Components/Carousel'
 import Dashboard from '../Sub-Components/Dashboard'
+import Slides from '../Sub-Components/Slides'
 
 function NSX() {
   return (
@@ -32,11 +32,11 @@ function NSX() {
             transmissions="4-speed automatic 5-speed manual 6-speed manual"
           />
         </Wrap>
-        <Carousel
-          image1="/images/NSX/NSX-Back.jpeg"
-          image2="/images/NSX/NSX-Side.jpg"
-          image3="/images/NSX/NSX-Interior.jpg"
-          image4="/images/NSX/NSX-Engine.jpg"
+        <Slides
+          image1="images/NSX/NSX-Back.jpeg"
+          image2="images/NSX/NSX-Side.jpg"
+          image3="images/NSX/NSX-Interior.jpg"
+          image4="images/NSX/NSX-Engine.jpg"
         />
       </Container>
     </div>

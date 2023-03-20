@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Carousel from '../Sub-Components/Carousel'
 import Dashboard from '../Sub-Components/Dashboard'
+import Slides from '../Sub-Components/Slides'
+
 function RX7() {
   return (
     <div>
@@ -31,11 +32,11 @@ function RX7() {
             transmissions="5-speed manual 4-speed automatic"
           />
         </Wrap>
-        <Carousel
-          image1="/images/RX7/RX7-Back.jpg"
-          image2="/images/RX7/RX7-Side.jpg"
-          image3="/images/RX7/RX7-Interior.jpg"
-          image4="/images/RX7/RX7-Engine.jpg"
+        <Slides
+          image1="images/RX7/RX7-Back.jpg"
+          image2="images/RX7/RX7-Side.jpg"
+          image3="images/RX7/RX7-Interior.jpg"
+          image4="images/RX7/RX7-Engine.jpg"
         />
       </Container>
     </div>

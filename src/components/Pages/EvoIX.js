@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Section from '../Home/Section'
-import Carousel from '../Sub-Components/Carousel'
 import Dashboard from '../Sub-Components/Dashboard'
+import Slides from '../Sub-Components/Slides'
 
 function EvoIX() {
   return (
@@ -32,11 +32,11 @@ function EvoIX() {
             transmissions="6-speed manual 5-speed manual 5-Speed F5A5 automatic"
           />
         </Wrap>
-        <Carousel
-          image1="/images/EvoIX/EvoIX-Back.jpg"
-          image2="/images/EvoIX/EvoIX-Side.jpg"
-          image3="/images/EvoIX/EvoIX-Interior.jpg"
-          image4="/images/EvoIX/EvoIX-Engine.jpg"
+        <Slides
+          image1="images/EvoIX/EvoIX-Back.jpg"
+          image2="images/EvoIX/EvoIX-Side.jpg"
+          image3="images/EvoIX/EvoIX-Interior.jpg"
+          image4="images/EvoIX/EvoIX-Engine.jpg"
         />
       </Container>
     </div>
